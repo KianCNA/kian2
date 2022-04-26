@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+        }
+
+        #main {
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+
+        .qq {
+            width: 300px;
+            height: 400px;
+            line-height: 250px;
+            margin: 10px;
+            text-align: center;
+            border: 1px solid #ccc;
+        }
+
+        .qq img {
+            width: 298px;
+            height: 398px;
+        }
+
+        .qq:hover {
+            box-shadow: 0px 0px 8px 6px #aaa;
+            transition: box-shadow 3s;
+            position: relative;
+            cursor: pointer;
+            left: -1px;
+            top: -1px;
+            transition: all 3s;
+        }
+
+        .qq:hover img {
+            transform: scale(1.4);
+            transform-origin: center;
+            transition: all 2s;
+        }
+
+        .by {
+            width: 100%;
+            text-align: center;
+            line-height: 10em;
+            font-weight: bold;
+            color: white;
+            font-size: 20px;
+            background-color: black;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="main">
+        <div class="by">汪棋烨-黄金圣斗士</div>
+        <div class="qq"><img src="./image001_S.jpg"></div>
+        <div class="qq"><img src="./image003_S.jpg"></div>
+        <div class="qq"><img src="./image005_S.jpg"></div>
+        <div class="qq"><img src="./image007_S.jpg"></div>
+        <div class="qq"><img src="./image009_S.jpg"></div>
+        <div class="qq"><img src="./image011_S.jpg"></div>
+        <div class="qq"><img src="./image013_S.jpg"></div>
+        <div class="qq"><img src="./image015_S.jpg"></div>
+        <div class="qq"><img src="./image017_S.jpg"></div>
+        <div class="qq"><img src="./image019_S.jpg"></div>
+        <div class="qq"><img src="./image021_S.jpg"></div>
+        <div class="qq"><img src="./image023_S.jpg"></div>
+    </div>
+</body>
+
+</html>
